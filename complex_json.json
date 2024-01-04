@@ -1,0 +1,332 @@
+[
+	{
+		"valid": true,
+		"person": {
+			"name": "Alice Johnson",
+			"age": 28,
+			"address": null,
+			"contacts": {
+				"email": "alice.j@example.com",
+				"phone": {
+					"home": "555-4321",
+					"work": "555-8765"
+				}
+			},
+			"hobbies": ["painting", "gardening", "music"]
+		},
+		"company": {
+			"name": "InnoTech",
+			"location": {
+				"country": "USA",
+				"state": "New York",
+				"city": "TechHub"
+			},
+			"departments": {
+				"engineering": {
+					"teams": ["frontend", "backend", "security"],
+					"team_lead": "Charlie Brown"
+				},
+				"marketing": {
+					"teams": ["social", "analytics", "branding"],
+					"team_lead": "Diana Miller"
+				}
+			},
+			"industry": "Innovation"
+		},
+		"events": [
+			{
+				"name": "Tech Summit",
+				"date": "2024-04-10",
+				"location": {
+					"venue": "Tech Arena",
+					"city": "InnoCity"
+				},
+				"codes": [2, 43, 252],
+				"participants": [
+					{ "name": "Charlie Brown", "role": "Speaker" },
+					{ "name": "Diana Miller", "role": "Attendee" }
+				]
+			},
+			{
+				"name": "InnoExpo",
+				"date": "2024-08-15",
+				"location": {
+					"venue": "Innovation Hall",
+					"city": "TechCenter"
+				},
+				"codes": [2, 43, 252],
+				"participants": [
+					{ "name": "Alice Johnson", "role": "Exhibitor" },
+					{ "name": "Bob Smith", "role": "Visitor" }
+				]
+			}
+		]
+	},
+	{
+		"valid": true,
+		"person": {
+			"name": "Eva Martinez",
+			"age": 35,
+			"address": {
+				"street": "789 Pine Rd",
+				"city": "Greenville",
+				"zipcode": "67890"
+			},
+			"contacts": {
+				"email": "eva.m@example.com",
+				"phone": {
+					"home": "555-5678",
+					"work": "555-9876"
+				}
+			},
+			"hobbies": ["cooking", "hiking", "coding"]
+		},
+		"company": {
+			"name": "SoftSolutions",
+			"location": {
+				"country": "USA",
+				"state": "Texas",
+				"city": "SoftVille"
+			},
+			"departments": {
+				"development": {
+					"teams": ["frontend", "backend", "testing"],
+					"team_lead": "Frank Rodriguez"
+				},
+				"sales": {
+					"teams": ["enterprise", "retail", "partnerships"],
+					"team_lead": "Gina White"
+				}
+			},
+			"industry": "Software"
+		},
+		"events": [
+			{
+				"name": "CodeCon",
+				"date": "2024-03-20",
+				"location": {
+					"venue": "Code Center",
+					"city": "DevCity"
+				},
+				"codes": [2, 43, 252],
+				"participants": [
+					{ "name": "Frank Rodriguez", "role": "Speaker" },
+					{ "name": "Gina White", "role": "Attendee" }
+				]
+			},
+			{
+				"name": "SoftExpo",
+				"date": "2024-07-25",
+				"location": {
+					"venue": "Tech Plaza",
+					"city": "SoftCenter"
+				},
+				"codes": [2, 43, 252],
+				"participants": [
+					{ "name": "Eva Martinez", "role": "Exhibitor" },
+					{ "name": "Harry Johnson", "role": "Visitor" }
+				]
+			}
+		]
+	},
+	{
+		"valid": true,
+		"person": {
+			"name": "Michael Turner",
+			"age": 32,
+			"address": {
+				"street": "987 Maple Ln",
+				"city": "Maplewood",
+				"zipcode": "45678"
+			},
+			"contacts": {
+				"phone": {
+					"home": "555-8765",
+					"work": "555-2345"
+				}
+			},
+			"hobbies": []
+		},
+		"company": {
+			"name": "DataDynamics",
+			"location": {
+				"country": "USA",
+				"state": "Washington",
+				"city": "DataCity"
+			},
+			"departments": {
+				"data_science": {
+					"teams": ["analytics", "machine_learning", "data_engineering"],
+					"team_lead": "Ivy Green"
+				},
+				"finance": {
+					"teams": ["budgeting", "reporting", "audit"],
+					"team_lead": "Jake Thompson"
+				}
+			},
+			"industry": "Data"
+		},
+		"events": [
+			{
+				"name": "Data Summit",
+				"date": "2024-06-12",
+				"location": {
+					"venue": "Data Center",
+					"city": "TechHub"
+				},
+				"codes": [2, 43, 252],
+				"participants": [
+					{ "name": "Ivy Green", "role": "Speaker" },
+					{ "name": "Jake Thompson", "role": "Attendee" }
+				]
+			},
+			{
+				"name": "DataExpo",
+				"date": "2024-10-30",
+				"location": {
+					"venue": "Data Plaza",
+					"city": "DataVille"
+				},
+				"codes": [2, 43, 252],
+				"participants": [
+					{ "name": "Michael Turner", "role": "Exhibitor" },
+					{ "name": "Natalie Brown", "role": "Visitor" }
+				]
+			}
+		]
+	},
+	{
+		"valid": true,
+		"person": {
+			"name": "Michael Brown",
+			"age": 28,
+			"address": {
+				"street": "789 Elm St",
+				"city": "Metroville",
+				"zipcode": "67890"
+			},
+			"contacts": {
+				"email": "michael.brown@example.com",
+				"phone": {
+					"home": "555-5678",
+					"work": "555-1234"
+				}
+			},
+			"hobbies": ["coding", "gaming", "music"]
+		},
+		"company": {
+			"name": "CodeCrafters",
+			"location": {
+				"country": "USA",
+				"state": "Texas",
+				"city": "CodeTown"
+			},
+			"departments": {
+				"engineering": {
+					"teams": ["frontend", "backend", "QA"],
+					"team_lead": "Laura Davis"
+				},
+				"marketing": {
+					"teams": ["online", "offline", "analytics"],
+					"team_lead": "Mark Taylor"
+				}
+			},
+			"industry": "Software Development"
+		},
+		"events": [
+			{
+				"name": "CodeCon",
+				"date": "2024-07-25",
+				"location": {
+					"venue": "Code Center",
+					"city": "CodeCity"
+				},
+				"codes": [2, 43, 252],
+				"participants": [
+					{ "name": "Laura Davis", "role": "Speaker" },
+					{ "name": "Michael Brown", "role": "Attendee" }
+				]
+			},
+			{
+				"name": "Tech Fair",
+				"date": "2024-11-05",
+				"location": {
+					"venue": "Tech Fairgrounds",
+					"city": "TechLand"
+				},
+				"codes": null,
+				"participants": [
+					{ "name": "Mark Taylor", "role": "Exhibitor" },
+					{ "name": "Alice White", "role": "Visitor" }
+				]
+			}
+		]
+	},
+	{
+		"valid": false,
+		"person": {
+			"name": "Sophia Smith",
+			"age": 22,
+			"address": {
+				"street": "321 Pine St",
+				"city": "Techville",
+				"zipcode": "34567"
+			},
+			"contacts": {
+				"email": "sophia.smith@example.com",
+				"phone": {
+					"home": "555-3456",
+					"work": "555-6789"
+				}
+			},
+			"hobbies": ["photography", "traveling", "reading"]
+		},
+		"company": {
+			"name": "DataMasters",
+			"location": {
+				"country": "USA",
+				"state": "California",
+				"city": "DataCity"
+			},
+			"departments": {
+				"engineering": {
+					"teams": ["data analysis", "machine learning", "data engineering"],
+					"team_lead": "Brian Johnson"
+				},
+				"marketing": {
+					"teams": ["digital marketing", "content creation", "events"],
+					"team_lead": "Emily Davis"
+				}
+			},
+			"industry": "Data Science"
+		},
+		"events": [
+			{
+				"name": "Data Summit",
+				"date": "2024-08-12",
+				"location": {
+					"venue": "Data Center",
+					"city": "DataVille"
+				},
+				"codes": [2, 43, 252],
+				"participants": [
+					{ "name": "Brian Johnson", "role": "Speaker" },
+					{ "name": "Sophia Smith", "role": "Attendee" }
+				]
+			},
+			{
+				"name": "Data Expo",
+				"date": "2024-12-01",
+				"location": {
+					"venue": "Expo Hall",
+					"city": "DataLand"
+				},
+				"codes": [2, 43, 252],
+				"participants": [
+					{ "name": "Emily Davis", "role": "Exhibitor" },
+					{ "name": "Robert Jones", "role": "Visitor" }
+				]
+			}
+		]
+	}
+]
